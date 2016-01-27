@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+canvas {
+  z-index: -1;
+}
+
 h1 {
   font-size: 28px;
 }
@@ -17,6 +21,7 @@ button {
   color: #666666;
   font-size: 18px;
   font-weight: normal;
+  background-color: white;
 }
 
 .welcome-block, .endless-block, .private-block {
@@ -29,7 +34,6 @@ button {
 }
 
 .endless-block {
-  background-color: #2d91ee;
   padding-bottom: 40px;
 }
 
@@ -70,7 +74,7 @@ button {
 }
 
 .logo {
-  margin-top: 59px;
+  padding-top: 59px;
   margin-left: auto;
   margin-right: auto;
   width: 185px;
