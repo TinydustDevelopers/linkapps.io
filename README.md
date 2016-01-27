@@ -12,4 +12,6 @@ then open `http://localhost:8080`
 
 ## distribution
 
-TODO
+```
+npm run build
+```

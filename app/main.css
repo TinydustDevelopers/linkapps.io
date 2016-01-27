@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 canvas {
@@ -12,7 +13,7 @@ h1 {
 
 p {
   font-size: 18px;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 button {
@@ -101,4 +102,43 @@ button {
 
 .hero-unit-wrapper {
   height: 500px;
+}
+
+.download-panel {
+  margin-top: -200px;
+  margin-left: 60px;
+}
+
+.download-panel {
+  position: fixed;
+  background: white;
+  border-radius: 8px;
+  width: 410px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  margin-top: -60px;
+}
+
+.download-panel img, .download-panel div {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*margin-left: 30px;*/
+}
+
+.download-panel img {
+  width: 140px;
+}
+
+.download-panel img {
+  width: 140px;
+}
+
+.download-panel button {
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin-top: 20px;
+  text-transform: none;
 }

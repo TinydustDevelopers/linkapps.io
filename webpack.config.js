@@ -10,7 +10,6 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel'},
-      // { test: /\.(png|jpg)$/, loader: 'file' },
       { test: /\.css$/, loader: "style-loader!css-loader" },
       {
        test: /\.(png|jpg|gif|svg)$/,
