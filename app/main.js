@@ -38,7 +38,7 @@ particlesJS.load('particles', 'assets/particles.json', () => {
       mixpanel.track('Download-Clicked', {platform: 'android'})
 
       event.stopPropagation()
-      window.open('http://www.baidu.com')
+      window.open('https://dn-tinydust.qbox.me/builds/link-latest.apk')
     })
   }
 
