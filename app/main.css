@@ -55,6 +55,14 @@ button {
   height: 380px;
 }
 
+.endless-block p a {
+  color: #ffffff;
+}
+
+.endless-block p a:hover {
+  color: #eeeeee;
+}
+
 .private-block {
   position: relative;
 }
